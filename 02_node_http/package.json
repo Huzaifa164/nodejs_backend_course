@@ -1,0 +1,22 @@
+{
+  "name": "02_node_http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "01": "tsx src/01_basic_http_server.ts",
+    "02": "tsx src/02_routing.ts",
+    "03": "tsx src/03_reading_body.ts",
+    "04": "tsx src/04_json_response.ts",
+    "05": "tsx src/05_external_api_calls.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
