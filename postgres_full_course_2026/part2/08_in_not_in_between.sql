@@ -10,6 +10,11 @@
 -- FROM products
 -- WHERE category NOT IN ('Electronics', 'Furniture');
 
-SELECT name, price
+-- SELECT name, price
+-- FROM products
+-- WHERE price BETWEEN 100 AND 2000;
+
+SELECT name, category, price, stock
 FROM products
-WHERE price BETWEEN 100 AND 2000;
+WHERE category IN ('Electronics', 'Furniture')
+AND price BETWEEN 10 AND 1499;
